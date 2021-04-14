@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="chamchenko-dev" name="chamchenko" version="0.0.1" provider-name="chamchenko">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0" />
+        </requires>
+        <extension point="xbmc.addon.repository" name="chamchenko">
+            <info compressed="false">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/xmls/dev/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/xmls/dev/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/zips/dev/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Kodi Video Add-ons</summary>
+            <description>This repository contain Kodi videos Add-ons</description>
+            <platform>all</platform>
+    </extension>
+</addon><addon id="plugin.video.nba" name="NBA League Pass II (kokan)" version="1.0.2" provider-name="ivankokan, maxgalbu, ptsampoukas, robla">
+  <requires>
+    <import addon="script.common.plugin.cache" version="0.9.1" />
+    <import addon="script.module.dateutil" version="2.8.1" />
+    <import addon="script.module.pytz" version="2014.2" />
+    <import addon="script.module.six" version="1.9.0" />
+    <import addon="script.module.pil" version="1.1.7" />
+    <import addon="script.module.inputstreamhelper" version="0.5.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="src/service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch NBA League Pass games.</summary>
+    <description>Features: Live, archive and condensed games for the current NBA season, highlights, top plays and other videos, previous seasons starting from 2012/2013. Fanart and thumbnails. Requires a subscription to the NBA International League Pass.</description>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=124716</forum>
+    <website>https://github.com/ivankokan/xbmc.plugin.video.nba</website>
+    <email />
+    <source>https://github.com/ivankokan/xbmc.plugin.video.nba</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon><addon id="plugin.video.cbsnetwork" version="0.1.0" name="CBS Network" provider-name="CHAMCHENKO">
+    <requires>
+        <import addon="script.module.codequick" version="0.9.13" />
+        <import addon="script.module.future" version="0.17.1" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Kodi add-on for watching Videos and Live TV from cbs.com</summary>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/chamchenko/plugin.video.cbsnetwork</source>
+        <website>https://cbs.com/</website>
+        <assets>
+            <icon>resources/images/icon.png</icon>
+            <fanart>resources/images/fanart.jpg</fanart>
+            <screenshot>resources/images/screenshot00001.jpg</screenshot>
+            <screenshot>resources/images/screenshot00002.jpg</screenshot>
+            <screenshot>resources/images/screenshot00003.jpg</screenshot>
+            <screenshot>resources/images/screenshot00004.jpg</screenshot>
+            <screenshot>resources/images/screenshot00005.jpg</screenshot>
+        </assets>
+    </extension>
+</addon></addons>
