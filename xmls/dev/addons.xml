@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="chamchenko-dev" name="chamchenko-dev" version="0.0.1" provider-name="chamchenko">
+<addons><addon id="chamchenko-dev" name="chamchenko-dev" version="0.0.2" provider-name="chamchenko">
         <requires>
             <import addon="xbmc.addon" version="12.0.0" />
         </requires>
