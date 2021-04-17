@@ -9,7 +9,7 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Kodi add-on for watching Videos and Live TV from cbs.com</summary>
+        <summary lang="en_GB">Kodi add-on for watching Videos and Live TV from adtv.ae</summary>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>https://github.com/chamchenko/plugin.video.adtv</source>
