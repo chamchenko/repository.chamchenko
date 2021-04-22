@@ -7,6 +7,7 @@ curl -sL --output - https://github.com/chamchenko/plugin.video.xtreamcodes/archi
 curl -sL --output - https://github.com/chamchenko/plugin.video.adtv/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
 curl -sL --output - https://github.com/chamchenko/plugin.video.awaan/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
 curl -sL --output - https://github.com/chamchenko/plugin.video.maraya/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
+curl -sL --output - https://github.com/chamchenko/plugin.video.shahid/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
 echo "Creating Repository .."
 ./create_repository.py \
     --datadir ./zips/dev \
@@ -18,6 +19,7 @@ echo "Creating Repository .."
     ../tmp/plugin.video.xtreamcodes-dev \
     ../tmp/plugin.video.adtv-dev \
     ../tmp/plugin.video.awaan-dev \
-    ../tmp/plugin.video.maraya-dev 
+    ../tmp/plugin.video.maraya-dev \
+    ../tmp/plugin.video.shahid-dev
 echo "Removing temp files .."
 rm -r ../tmp/*
