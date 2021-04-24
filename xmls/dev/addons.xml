@@ -167,7 +167,7 @@
             <screenshot>resources/images/screenshot00004.jpg</screenshot>
         </assets>
     </extension>
-</addon><addon id="plugin.video.shahid" version="0.1.1~beta01" name="SHAHED" provider-name="CHAMCHENKO">
+</addon><addon id="plugin.video.shahid" version="0.1.1~beta02" name="SHAHED" provider-name="CHAMCHENKO">
     <requires>
         <import addon="script.module.codequick" version="0.9.13" />
         <import addon="script.module.future" version="0.17.1" />
