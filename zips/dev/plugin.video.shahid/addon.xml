@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.shahid" version="0.1.1~beta02" name="SHAHED" provider-name="CHAMCHENKO">
+<addon id="plugin.video.shahid" version="0.1.2" name="SHAHED" provider-name="CHAMCHENKO">
     <requires>
         <import addon="script.module.codequick" version="0.9.13"/>
         <import addon="script.module.future" version="0.17.1"/>
@@ -10,21 +10,25 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB"></summary>
-        <description lang="en_GB"></description>
         <description lang="en_GB">Kodi add-on for watching videos from shahid.mbc.net</description>
         <platform>all</platform>
-        <language>en</language>
+        <language></language>
         <license>GPL-2.0</license>
         <source>https://github.com/chamchenko/plugin.video.shahid</source>
         <website>https://shahid.mbc.net/</website>
         <assets>
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
-            <screenshot>resources/media/screenshot000.jpg</screenshot>
-            <screenshot>resources/media/screenshot001.jpg</screenshot>
-            <screenshot>resources/media/screenshot002.jpg</screenshot>
-            <screenshot>resources/media/screenshot003.jpg</screenshot>
-            <screenshot>resources/media/screenshot004.jpg</screenshot>
+            <screenshot>resources/media/screenshot00000.jpg</screenshot>
+            <screenshot>resources/media/screenshot00001.jpg</screenshot>
+            <screenshot>resources/media/screenshot00002.jpg</screenshot>
+            <screenshot>resources/media/screenshot00003.jpg</screenshot>
+            <screenshot>resources/media/screenshot00004.jpg</screenshot>
+            <screenshot>resources/media/screenshot00005.jpg</screenshot>
+            <screenshot>resources/media/screenshot00006.jpg</screenshot>
+            <screenshot>resources/media/screenshot00007.jpg</screenshot>
+            <screenshot>resources/media/screenshot00008.jpg</screenshot>
+            <screenshot>resources/media/screenshot00009.jpg</screenshot>
         </assets>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
