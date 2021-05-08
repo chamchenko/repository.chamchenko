@@ -9,7 +9,7 @@ curl -sL --output - https://github.com/chamchenko/plugin.video.awaan/archive/ref
 curl -sL --output - https://github.com/chamchenko/plugin.video.maraya/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
 curl -sL --output - https://github.com/chamchenko/plugin.video.shahid/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
 curl -sL --output - https://github.com/chamchenko/plugin.video.nbainternational/archive/refs/heads/dev.zip | busybox unzip -q - -d ../tmp/
-curl -sL --output - https://github.com/chamchenko/resource.images.nbainternational-main/archive/refs/heads/main.zip | busybox unzip -q - -d ../tmp/
+curl -sL --output - https://github.com/chamchenko/resource.images.nbainternational/archive/refs/heads/main.zip | busybox unzip -q - -d ../tmp/
 echo "Creating Repository .."
 ./create_repository.py \
     --datadir ./zips/dev \
