@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="chamchenko-dev" name="chamchenko-dev" version="0.0.2" provider-name="chamchenko">
+    <addon id="chamchenko-dev" name="chamchenko-dev" version="0.0.3" provider-name="chamchenko">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="chamchenko">
-            <info compressed="false">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/xmls/dev/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/xmls/dev/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/zips/dev/</datadir>
-            <hashes>false</hashes>
+		    <dir>
+                <info compressed="false">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/xmls/dev/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/xmls/dev/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/master/zips/dev/</datadir>
+                <hashes>false</hashes>
+		    </dir>
+		    <dir>
+                <info compressed="false">https://raw.githubusercontent.com/chamchenko/repository.chamchenko/lfs/xmls/dev/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/chamchenko/repository.chamchenko/lfs/xmls/dev/addons.xml.md5</checksum>
+                <datadir zip="true">https://media.githubusercontent.com/media/chamchenko/repository.chamchenko/lfs/zips/dev/</datadir>
+			    <hashes>false</hashes>
+		    </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Kodi Video Add-ons</summary>
