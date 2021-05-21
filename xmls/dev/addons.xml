@@ -208,7 +208,7 @@
         </assets>
         <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
-</addon><addon id="plugin.video.nbainternational" version="0.0.1~beta12" name="NBA International" provider-name="CHAMCHENKO">
+</addon><addon id="plugin.video.nbainternational" version="0.0.1~beta13" name="NBA International" provider-name="CHAMCHENKO">
     <requires>
         <import addon="script.module.codequick" version="0.9.13" />
         <import addon="script.module.future" version="0.17.1" />
